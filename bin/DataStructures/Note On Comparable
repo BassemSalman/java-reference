@@ -1,0 +1,8 @@
+public interface Comparable<T> {
+    int compareTo(T o); // >0 <0 0
+}
+
+
+The TreeNode class contains the data value, and references to the left and right child nodes. The BinarySearchTree class uses the Comparable interface to enforce that the elements stored in the tree must be comparable.
+
+class BinarySearchTree<T extends Comparable<T>> {

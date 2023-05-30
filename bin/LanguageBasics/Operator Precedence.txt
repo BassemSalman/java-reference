@@ -1,0 +1,85 @@
+. isnot an operator, usually ofcourse dealed with first
+
+1
+Postfix operators:
+expr++ (post-increment)
+expr-- (post-decrement)
+
+2
+Unary operators:
+++expr (pre-increment)
+--expr (pre-decrement)
++expr (unary plus)
+-expr (unary minus)
+!expr (logical complement)
+~expr (bitwise complement)
+(type)expr (casting)
+
+3
+Multiplicative operators:
+* (multiplication)
+/ (division)
+% (modulus)
+
+4
+Additive operators:
++ (addition)
+- (subtraction)
+
+5
+Shift operators:
+<< (left shift)
+>> (right shift with sign extension)
+>>> (right shift with zero extension)
+
+6
+Relational operators:
+< (less than)
+> (greater than)
+<= (less than or equal to)
+>= (greater than or equal to)
+instanceof (type comparison)
+
+7
+Equality operators:
+== (equal to)
+!= (not equal to)
+
+8
+Bitwise AND operator:
+&
+
+9
+Bitwise exclusive OR (XOR) operator:
+^
+
+10
+Bitwise inclusive OR operator:
+|
+
+11
+Logical AND operator:
+&&
+
+12
+Logical OR operator:
+||
+
+13
+Ternary conditional operator:
+condition ? expr1 : expr2
+
+14
+Assignment operators:
+=
++=
+-=
+*=
+/=
+%=
+<<=
+>>=
+>>>=
+&=
+^=
+|=

@@ -1,0 +1,18 @@
+Java Virtual Machine (JVM): 
+JVM is the runtime environment that executes Java bytecode. 
+It provides a platform-independent execution environment by translating bytecode into machine code that can be understood by the underlying operating system.
+
+Java Runtime Environment (JRE):
+The JRE is a subset of the JVM that includes necessary libraries and files required for running Java applications. It provides the runtime environment without the development tools.
+
+Java Development Toolkit (JDK):
+The JDK is a software development kit that provides tools for developing, debugging, and compiling Java applications. It includes the JRE, a compiler, debugging tools, and other utilities needed for Java development.
+
+Class Path: 
+The class path is a parameter that specifies the location of Java classes and libraries required for executing a Java program. It tells the JVM where to find the necessary files needed to run the program.
+
+Compilation:
+Compilation is the process of translating Java source code into bytecode. The Java compiler (javac) takes the source code and produces platform-independent bytecode files (with a .class extension) that can be executed by the JVM.
+
+Running Java Code:
+To run Java code, you need to have the JRE or JDK installed on your system. After compiling the source code into bytecode, you can use the Java command (java) followed by the name of the main class to execute the program. The JVM loads the bytecode and executes it, producing the desired output or performing the specified actions.
