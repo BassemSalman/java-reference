@@ -32,6 +32,11 @@ public class Stacks{
      * When you need to implement a stack, queue, or deque data structure.
      * When random access by index is required, but efficiency is not a critical concern.
      * When you don't require efficient insertion/removal at arbitrary positions.
+     * 
+     * better than LL as stack
+     * less memory
+     * can access specific index as well
+     * insert middle is complex
      */
 
 

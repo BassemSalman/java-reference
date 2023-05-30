@@ -1,10 +1,15 @@
+In General
+ArrayDeque >>>
+
+
 LinkedList = doubly linked list
 ArrayDeque = resizable array 
 
 Both:
 O(1) for adding and removing from both ends
 
-
+ArrayDeque uses less memory, and can access any position
+LinkedList removing or adding in middle is much less complex since no shifting is required
 
 ArrayDeque when you need a double-ended queue and efficient insertion/removal at both ends. 
 
@@ -13,8 +18,6 @@ LinkedList when you require frequent insertion and removal at arbitrary position
 Consider the specific requirements of your application to determine which implementation is more suitable.
 
 
-I like LinkedLists more, due to its dynamic structure, no shifts, no resizing 
+I like LinkedLists more, due to its dynamic structure, no shifts, no resizing
+
 Yet it uses more memory
-
-
-Insertion to LL at end takes O(n) !

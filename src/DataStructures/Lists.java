@@ -17,7 +17,8 @@ List Interface => Extends Collection:
  * internally uses array to store => random access is fast
  * insertion in middle is complex though
  * ArrayList is suitable when you need frequent access to elements and the list size doesn't change frequently
- *
+ * insertion at end => O(1)
+ * 
  * Initially of size 10
  * However, if you have knowledge about the expected number of elements in advance, providing an initial capacity that is close to the expected size can help optimize the performance by minimizing the number of resize operations
  * /

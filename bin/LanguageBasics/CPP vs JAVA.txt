@@ -1,0 +1,8 @@
+CPP can be both procedural and OOP
+Java is only OOP
+
+CPP binding is static, unlike Java which is dynamic
+
+CPP can handle memory more especially pointers and deallocation
+
+CPP is platform dependent unlike Java which depends on JVM, yet CPP is faster due to that
