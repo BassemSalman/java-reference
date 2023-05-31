@@ -1,0 +1,41 @@
+Breaking Down Systems into Manageable Parts:
+
+Association:
+Refers to any relationship beween classes
+Classes can have reference to others
+
+has-a relationship: Building Complex Objects By Combining Simpler Objects Together
+
+Composition: Strong  (has - a) => Ownership
+'parts' cannot exist independently
+Car {
+    Engine;
+    Wheel;
+}
+
+
+Aggregation: Weaker (has - a)
+'parts' can exist independently
+University {
+    List<Student>;
+}
+
+
+
+Single Responsibility Principle:
+Each class / module should have only one focus with respect to system
+such as Models, Controllers, DAOs, Views, Services..
+=> Maintenance is much easier
+=> Less Complexity
+
+Open/Closed Principle:
+Software entities should be open for extension but closed for modification
+Once entity is tested, it shouldnt be altered but extended instead to add more functionalities
+=> Code Remains Stable
+=> New Features Added Safely
+
+
+(not so similar)
+Composition (has - a) vs Inheritence (is - a):
+Composition is Combining Objects to Build a Complex System == Looser Coupling
+Inheritence is To Represent Hierarchical relationships == Strong Coupling
