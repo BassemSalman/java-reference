@@ -1,0 +1,13 @@
+Time Complexity : How much time algorithm needs with respect to input n
+=> loop 0 up to n 
+O(n) = n
+dividing problem into middle => O(logn)
+...
+
+
+Space Complexty : How much memory algorithms needs with respect to input needs
+=> lets say we are initializing array of size n
+S(n) = n
+
+
+O(c) = S(c) = O(1) = S(1)
