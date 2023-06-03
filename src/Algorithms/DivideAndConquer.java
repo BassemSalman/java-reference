@@ -1,5 +1,6 @@
 package Algorithms;
 
+
 public class DivideAndConquer {
     /*Divide and Conquer is a paradigm where problem is solved using the Divide, Conquer, and Combine strategy. 
      * Divide: This involves dividing the problem into smaller sub-problems.

@@ -1,5 +1,6 @@
 package Algorithms;
 
+
 import java.util.HashMap;
 
 public class Greedy {

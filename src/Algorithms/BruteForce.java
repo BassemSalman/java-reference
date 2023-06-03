@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class BruteForce {
         /* Brute Force : Straighforward Approach
          * Trying every possible option to find solution
