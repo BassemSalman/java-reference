@@ -16,3 +16,6 @@ Compilation is the process of translating Java source code into bytecode. The Ja
 
 Running Java Code:
 To run Java code, you need to have the JRE or JDK installed on your system. After compiling the source code into bytecode, you can use the Java command (java) followed by the name of the main class to execute the program. The JVM loads the bytecode and executes it, producing the desired output or performing the specified actions.
+
+Java programs run on the Java virtual machine (JVM). When we compile the Java class, it is transformed into byte code which is platform and machine-independent. The compiled classes are stored as a .class file on a disk.
+
