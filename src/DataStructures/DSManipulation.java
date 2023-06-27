@@ -99,6 +99,16 @@ public class DSManipulation {
         // foreach((n) -> { System.out.println(n); }
         test.replaceAll(number->number+2);
 
+        
+/*
+        List<Person> persons = new ArrayList<>();
+        persons.add(new Person("Alice", 25));
+        persons.add(new Person("Bob", 30));
+        persons.add(new Person("Charlie", 20));
+
+        // Sort the list based on age ASCENDING
+        Collections.sort(persons, (p1, p2) -> p1.getAge() - p2.getAge());
+*/
 
 
 
