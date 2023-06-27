@@ -65,6 +65,12 @@ public class Maps {
     lowerKey(key) // greatest key strictly lower than key
     subMap(fromKey, toKey)
  */
+        TreeMap<String, Integer> t = new TreeMap<>();
+        t.put("Hello", 1);
+        t.put("A", 1);
+        t.put("B", 2);
+        System.out.println(t);
+        // {A=1, B=2, Hello=1} => sorted based on keys
 
 
 
