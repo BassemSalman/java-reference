@@ -22,6 +22,9 @@ public class Maps {
  *  no ordering maintenance
  *  Allows null keys and values
  *  O(1) operations
+
+    hashcode(key) -> index
+    if collision => refer to next
  */
     HashMap<String, String> hashMap = new HashMap<>();
     hashMap.put("Apple", "Fruit");
@@ -30,7 +33,7 @@ public class Maps {
 
 /*
  * TreeMap implements Map
- * Depends on Self Balancing Tree
+ * Depends on Self Balancing Tree (Red Black)
  * Sorted based on keys
  * Slower than HashMap for basic operations, yet sorted order of entries O(nlogn)
  * no null keys but null values
