@@ -2,6 +2,9 @@ package OOP;
 
 import java.util.ArrayList;
 
+class DefaultClassAllowed{
+
+}
 public class Introduction {
     /*
      * Classes are blueprints that define structure and behavior of object
