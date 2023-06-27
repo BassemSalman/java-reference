@@ -7,3 +7,5 @@ What is Garbage Collection:
 Automatic free of object from memory by JVM when it either:
 - Unreachable
 - No longer referenced
+
+It is done through automatic call of finalize() method of Object class
