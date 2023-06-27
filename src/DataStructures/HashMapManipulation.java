@@ -4,6 +4,36 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
+
+class Book {
+    String name;
+    int authorId;
+
+    public Book(String name, int authorId) {
+        this.name = name;
+        this.authorId = authorId;
+    }
+
+    /*
+     * Need to implement both hashCode and equals for putIfAbsent to work correctly
+     * first hashCode of Book is calculated
+     * if there is an element at this index, equals is called
+     */
+    @Override
+    public int hashCode(){
+        return Integer.hashCode(authorId);
+    }
+    @Override
+    public boolean equals(Object b){
+        return authorId == ((Book)b).authorId;
+    }
+
+    @Override
+    public String toString(){
+        return name + " " + authorId; 
+    }
+}
+
 public class HashMapManipulation {
     public static void main(String[] args) {
         HashMap<Book, Integer> books = new HashMap<>();
