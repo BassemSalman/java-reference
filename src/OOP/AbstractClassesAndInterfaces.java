@@ -52,9 +52,12 @@ public class AbstractClassesAndInterfaces {
      */
 
 
-    /*
-     * Abstract Class: is-a :: loose coupling => Runnable, Comparable, ..
-     * Interface: defines behavior :: Animal must have the following methods and attributes for example
-     */
+/*
+In summary, an abstract class is a class that can be partially implemented and serves as a base for subclasses,
+while an interface is a contract that defines a set of methods that implementing classes must provide
+
+Abstract class such as Animal: makeSound()
+Interface such as Runnable: run() or Comparable: compareTo()
+*/
 
 }
