@@ -1,0 +1,9 @@
+1)Instantiation ( Using 'new' keyword to allocate memory for object in heap )
+2)Initialization ( Set initial state  = value )
+3)Usage ( Could change state -  Used for operations )
+4)Destruction (Through garbage collection)
+
+What is Garbage Collection:
+Automatic free of object from memory by JVM when it either:
+- Unreachable
+- No longer referenced
