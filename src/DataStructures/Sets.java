@@ -27,7 +27,7 @@ public class Sets {
 
 /*
  * TreeSet implements Set
- * Ordering: depending on .equals of objects
+ * Ordering: depending on compareTo and duplication on equals of objects
  * depends on a type of self-balancing bst (red black tree)
  * Slower than HashSet for basic operations but provides sorted order of elements.
 If you need a set that maintains elements in sorted order, use TreeSet.
