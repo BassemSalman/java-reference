@@ -6,7 +6,7 @@ import java.io.IOException;
 public class File7Exceptions{
 
     public static void main(String[] args) {
-/* checked exception => must be explicitly handled,  generally related to external factors,
+/* checked exception => (compile time) must be explicitly handled,  generally related to external factors,
  such as I/O operations or database connectivity.  SQLException / Io ..*/
     try {
         FileInputStream file = new FileInputStream("example.txt");
