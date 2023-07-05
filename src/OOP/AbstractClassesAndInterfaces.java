@@ -33,7 +33,7 @@ public class AbstractClassesAndInterfaces {
 
 
     /*
-     * Interface: collection of abstract methods and CONSTANT values
+     * Interface: collection of abstract methods and puvlic static final values by default
      * It defines what a class should do but not how it does it
      * 
      * => no instance variables
