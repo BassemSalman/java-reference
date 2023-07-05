@@ -41,7 +41,7 @@ public class AbstractClassesAndInterfaces {
      * => no method bodies
      * => class can implement multiple interfaces
      *
-     * 
+     * (static methods as well similarly) 
      * default method:
      * method in interface with default implementation => body
      * default void method(){
