@@ -41,7 +41,7 @@ Collections.sort(collection)
         //Inline initialization: int[] numbers = {1, 2, 3};
         //Initializing with a specified size: int[] numbers = new int[5];
         //Initializing with default values: boolean[] flags = new boolean[10];
-         // All elements will be initialized to false
+        // All elements will be initialized to false
 
     }
 }

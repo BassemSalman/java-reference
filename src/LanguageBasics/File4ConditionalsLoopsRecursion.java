@@ -47,7 +47,7 @@ public class File4ConditionalsLoopsRecursion {
             i+=10;
         }while(i<100);
 
-        String[] strs = {"hi", "bye"};
+        String strs[] = {"hi", "bye"};
         for(String str : strs) {
             System.out.println(str);
         }

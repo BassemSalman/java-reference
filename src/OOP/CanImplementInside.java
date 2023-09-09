@@ -1,3 +1,4 @@
+package OOP;
 public interface CanImplementInside{
     public int calculate();
 

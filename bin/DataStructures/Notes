@@ -1,0 +1,7 @@
+Comparator inside Constructor: new PriorityQueue<>( (a,b) -> (a.rating == b.rating) ? a.food.compareTo(b.food) : b.rating - a.rating));
+
+Could be another class implementing Comparator and compare(a , b)
+
+Remove and insertion depends on equals
+or
+priorityQueue.removeIf(fr -> fr.food.equals(updatedRating.food));

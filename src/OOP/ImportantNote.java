@@ -10,7 +10,7 @@ public class ImportantNote{
 
     /*
     Note 1:
-        The position of an object inside a hashmap depends on its hashcode
+        The position of an object inside a hashmap depends on its hashcode, putIfAbsent depends on equals
 
         You can create a custom hash function depending on your requirements
     */

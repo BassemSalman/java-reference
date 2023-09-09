@@ -37,6 +37,9 @@ public class Inheritence {
      * C,D->A (inheriting and overriding method foo())
      * B->C,D
      * if b.foo(), which foo() would be called? D or C? None
+     * 
+     * 
+     * NOOO PROBLEM IS IN INSTANCE VARS AND METHODS
      */
 
 

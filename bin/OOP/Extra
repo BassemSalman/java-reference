@@ -39,3 +39,14 @@ Once entity is tested, it shouldnt be altered but extended instead to add more f
 Composition (has - a) vs Inheritence (is - a):
 Composition is Combining Objects to Build a Complex System == Looser Coupling
 Inheritence is To Represent Hierarchical relationships == Strong Coupling
+
+
+
+Data members are the data variables and member functions are the functions used to manipulate these 
+variables and together these data members and member functions defines the properties and behavior of the objects in a Class
+
+
+
+In Java, you can define multiple classes in a single file, but only one of the classes can be public. 
+The file name must match the name of the public class. The other classes can be package-private (default visibility) or
+have a different access modifier (e.g., private, protected).

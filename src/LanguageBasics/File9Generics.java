@@ -24,5 +24,4 @@ File9Generics.swap(names, 1, 2);
 
 /*
  * Generics are generated in instance NOT class level => cant reference it in static method
- * 
  */

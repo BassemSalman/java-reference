@@ -15,7 +15,7 @@ public class Introduction {
         // instantiated => space in memory
         ArrayList<Integer> a = new ArrayList<>();
 
-        // garbage collector frees it when not referenced anymore
+        // garbage collector frees it when not referenced anymore / no longer can be reached
         // local variables die with method returns, yet what they reference stays alive if its referenced somewhere else
 
         /*Access Modifiers
@@ -34,8 +34,8 @@ public class Introduction {
          * Constructors :
          * - default
          * - parameterized
-         *
          */
+
     }
     private int outerVariable;
     private static int staticOuterVariable;
@@ -47,6 +47,7 @@ public class Introduction {
      * Outer.Inner inner = o.new Inner(); 
 
      */
+
     class Inner {  // instance specific
         void display() {
             System.out.println("Inner class method");

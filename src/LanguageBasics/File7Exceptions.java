@@ -15,10 +15,11 @@ public class File7Exceptions{
     }
 
 
-/*unchecked occur on runtime, so cant rly expect them 
+/*
+unchecked occur on runtime, so cant rly expect them 
 They occur at runtime and are usually caused by programming errors, 
 such as null pointer dereference or arithmetic division by zero
- */
+*/
 
 //you can create your own unchecked exception by extending the RuntimeException
 /*

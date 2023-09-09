@@ -16,7 +16,7 @@ public class File5StringManipulation {
         String strings[] = str.split(" "); // [Hello, World]
         char c = str.charAt(1);
 
-        int index = str.indexOf('a'); // first
+        int index  = str.indexOf('a'); // first     
         int index2 = str.lastIndexOf('a'); // first
 
 
