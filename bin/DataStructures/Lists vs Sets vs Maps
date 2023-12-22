@@ -1,6 +1,0 @@
-Uniqueness: Maps have unique keys, Sets have unique elements, while Lists can contain duplicate elements.
-Ordering: Maps do not provide an inherent ordering of keys or values, Sets do not provide a specific ordering of elements (though some implementations like TreeSet offer sorted order), while Lists maintain the order of elements based on their index.
-Access: Maps allow retrieval of values based on keys, Sets provide methods to check the existence of an element, and Lists allow accessing elements by index.
-Duplication: Maps do not allow duplicate keys, Sets do not allow duplicate elements, while Lists allow duplicate elements.
-
-
